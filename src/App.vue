@@ -3,10 +3,12 @@
     <Header/>
     <main>
       <Message/>
+      <!--
       <Profile/>
       <Trend/>
       <Portfolio/>
       <Contact/>
+      -->
     </main>
     <Footer/>
   </div>
@@ -35,13 +37,42 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
+@charset "UTF-8";
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+input, textarea{
+	outline: none;
+	border-color: transparent;
+	background: transparent;
+}
+body {
+	text-align: center;
+	color: #fff;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
 #main-bg {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  background: linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,200,0.5)), url('./assets/shige.jpeg');
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 </style>
