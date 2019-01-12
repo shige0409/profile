@@ -66,6 +66,46 @@ body {
 	color: #fff;
 	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
 }
+.flex-box {
+  display: flex; }
+
+.right-align {
+  justify-content: flex-end; }
+
+.container {
+  margin: 0 auto;
+  height: 640px; }
+
+#target {
+  font-size: 40px;
+  letter-spacing: 3px; }
+
+.info {
+  margin-top: 40px; }
+
+.good {
+  color: #777; }
+
+.bad {
+  color: #222; }
+
+.hide {
+  display: none; }
+
+.clearness {
+  opacity: 0;
+}
+.typing {
+  width: 100%;
+  font-size: 40px;
+  text-align: center; }
+.btn {
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px auto;
+  padding: 15px;
+  border-radius: 5px;
+}
 
 body {
   font-family: 'Times New Roman', Times, serif;
